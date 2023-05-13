@@ -1,19 +1,18 @@
-import me from "../app/placeholder.jpg";
+import me from '../app/placeholder.jpg';
 
-export const name = "Leo Pena";
+export const name = 'Your Name';
 export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hi, I'm a web developer who enjoys building solutions with Next.js. I
-      appreciate the ever-evolving nature of technology and strive to keep up
-      with it.
+      Hey, I'm a developer who loves Next.js. I work at BigCo or CoolStartup as a Software Engineer.
     </>
   );
 };
-
 export const bio = () => {
   return (
-    <>Aside from coding, my interests include anime and problem-solving.</>
+    <>
+      When I'm not coding, I'm probably playing video games or watching anime. I also love to travel and explore new places.
+    </>
   );
 };
