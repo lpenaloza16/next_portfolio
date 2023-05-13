@@ -4,6 +4,7 @@
     "dev": "next dev",
     "build": "npm run setup && next build",
     "build-only": "next build",
+    "buildtwo": "next build && next export",
     "start": "next start",
     "setup": "node ./lib/setup.mjs"
   },
